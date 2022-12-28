@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    margin: 20px auto 40px auto;
+    font-family: 'Handlee', cursive;
+    background-color: #D6F8D6;
+    padding: 30px;
+}
+p{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+h2{
+    font-family: 'Handlee', cursive;
+
+}
+div:hover{
+    transform:scale(1.3)
+}
+
+.square-1{
+    background-color: #DCB6D5;
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+    transform:rotateZ(-13deg);
+    margin-top: 30px;
+    box-shadow: 10px 20px 5px 1px lightgrey;
+}
+.square-2{
+    display:inline-block;
+    background-color: #B3B3F1;
+    height: 300px;
+    width: 300px;
+    margin: 0 100px;
+    transform:rotateZ(5deg);
+    box-shadow: 10px 20px 5px 1px lightgrey;
+}
+.square-3{
+    display:inline-block;
+    background-color:#B15E6C;
+    height: 300px;
+    width: 300px;
+    transform: rotateZ(-10deg);
+    box-shadow: 10px 20px 5px 1px lightgrey;
+   
+}
